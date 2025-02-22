@@ -1,0 +1,148 @@
+h1{
+    color:darkblue;
+    background-color: rgb(192, 55, 241);
+    background-size: 100%;
+    
+    font-size: xx-large;
+}
+header{
+    text-align:center ;
+    color: rgb(212, 106, 106);
+    
+   height:130px;
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+body{
+    background-color:rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+}
+nav{
+    text-align: left;
+}
+li a {
+    padding: 3px 5px; 
+    margin:0;
+    border: 0px solid #f00; 
+    background: #000;
+    text-decoration: none;
+    color:#FFF;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+li a:hover {
+    background: #CCC;
+    color: #000; 
+    border-color: #000;
+}
+
+li a {
+    padding: 3px 5px; 
+    margin:0;
+    border: 0px solid rgba(63, 120, 135, 0.642); 
+    background:#000;
+    text-decoration: none;
+    color:#FFF;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+}
+li a:hover {
+    background: #CCC;
+    color: #000; 
+    border-color: #000;
+}
+
+ul {
+    margin: 0;
+    padding:0;
+}
+ 
+li {
+    list-style: none; 
+    margin: 5px;
+    display: inline;
+}
+.post{
+    text-align: right;
+
+}
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(download.jpeg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    text-align: center;
+    
+}
+section{
+    text-align: center;
+}
+h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+img{
+    justify-content: right;
+    float: right;
+    width: 360px;
+    height: 360px;
+    text-align: right;
+    justify-content: right;
+}
+.whitebg{
+    background-color:#b8e6f4;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    margin: 10px auto;
+    max-width: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 1.4;
+}
+p{
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+}
+
+    #conteudo {
+    loading="lazy"
+    width: 70%;
+    float: right;
+    text-align: :left;
+
+    
+    }
+    #menu {
+    Loading="lazy" 
+    width: 40%;
+    margin: 0; padding: 0;
+    float: right;
+    
+    }
+    #menu ul li {
+    margin: 0; padding: 0px;
+    border-bottom: 0px solid #CCC;
+    text-align:center;
+    list-style-type: none;
+  
+    }
+    #menu a:link {
+    background: #F5F5F5;
+    color: #666;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 4px;
+    display: block;
+    }
+    #menu a:hover {
+    background: #E5F0FF;
+    color: #039;
+    }
+   
+
